@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <title></title>
+</head>
+
+<body style="background-image: url('img/background-site.jpg');">
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <!--Titulo-->
+      <div class="col-sm-12 p-1" style="background-image: url(img/img.jpg);">
+
+        <div class="cabecalho">
+          <a>
+            <svg xmlns="icons/list" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+          </a>
+          <p>Instrumento</p>
+        </div>
+      </div>
+      <!--selects-->
+      <forms>
+      <div class="col-md-10">
+        <label for="inputNome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="name" placeholder="Insira seu nome:">
+        <br>
+      </div>
+      <div class="col-12 formsMeio">
+        <div class="formsIni">
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="formsIni">
+          <button type="submit" class="btn btn-primary">
+            <svg xmlns="icons/arrow-clockwise" width="16" height="16" fill="currentColor" class="bi bi-arrow-clockwise"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2z" />
+              <path
+                d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466" />
+            </svg>
+            Inserir
+          </button>
+          <button type="submit" class="btn btn-primary">
+            Adcionar
+          </button>
+          <button type="submit" class="btn btn-primary">
+            Remover
+          </button>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="formsMeio">
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">
+            Salvar
+          </button>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">
+            Cancelar
+          </button>
+        </div>
+      </div>
+    </div>
+    </form>
+  </div>
+  <div class="col-sm-6">
+  </div>
+</body>
+
+</html>
